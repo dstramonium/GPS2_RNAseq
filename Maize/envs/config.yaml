@@ -1,0 +1,35 @@
+samples:
+  ["1_S1_L001",
+  "2_S2_L001",
+  "3_S3_L001",
+  "4_S4_L001",
+  "5_S5_L001",
+  "6_S6_L001",
+  "7_S7_L001",
+  "8_S8_L001",
+  "9_S9_L001",
+  "10_S10_L001",
+  "11_S11_L001",
+  "12_S12_L001",
+  "17_S25_L001",
+  "24_S26_L001",
+  "26_S27_L001",
+  "28_S28_L001",
+  "29_S29_L001",
+  "31_S30_L001",
+  "32_S31_L001",
+  "33_S32_L001",
+  "34_S33_L001",
+  "35_S34_L001",
+  "36_S35_L001",
+  "42_S36_L001"] 
+  # some sort of structure
+
+hisat_params:
+  min_i: 60
+  max_i: 50000
+  #min intron 60 max intron 50000 from Chen et al. 2018
+
+genome_info:
+  genome: "maize_genome_B73v5/ZmB73v5"
+  gtf: "maize_genome_B73v5/Zm-B73-REFERENCE-NAM-5.0_Zm00001eb.1.gtf"

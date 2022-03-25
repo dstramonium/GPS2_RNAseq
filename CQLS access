@@ -1,0 +1,12 @@
+ssh -p 732 daoth@files.crgb.oregonstate.edu
+ssh -p 732 daoth@shell.crgb.oregonstate.edu
+
+cd /dfs/Leiboff_Lab/Dat/GPS2_RNAseq
+
+# download
+wget -r -nH --cut-dirs=1 --no-parent
+
+#CQLS requests
+SGE_Batch -c 'command' -r log_dir -P 
+
+hisat2-build -f <reference_in> <ht2_base>
