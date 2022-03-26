@@ -17,11 +17,11 @@ rule all:
 #fastp in paired-end mode
 rule fastp:
     input:
-        R1 = 'raw_reads/{sample}_R1.fastq.gz',
-        R2 = 'raw_reads/{sample}_R2.fastq.gz',
+        R1 = 'raw_reads/{sample}_R1_001.fastq.gz',
+        R2 = 'raw_reads/{sample}_R2_001.fastq.gz',
     output:
-        R1 = 'trimmed_reads/{sample}_R1.fastq.gz',
-        R2 = 'trimmed_reads/{sample}_R2.fastq.gz',
+        R1 = 'trimmed_reads/{sample}_R1_001.fastq.gz',
+        R2 = 'trimmed_reads/{sample}_R2_001.fastq.gz',
         html_report = 'fastp_report/{sample}.html',
         json_report = 'fastp_report/{sample}.json'
     conda:
