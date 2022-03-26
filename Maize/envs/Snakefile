@@ -36,8 +36,8 @@ rule fastp:
 #hisat2 in paired end mode
 rule hisat2:
     input:
-        R1 = 'trimmed_reads/{sample}_R1.fastq.gz',
-        R2 = 'trimmed_reads/{sample}_R2.fastq.gz'
+        R1 = 'trimmed_reads/{sample}_R1_001.fastq.gz',
+        R2 = 'trimmed_reads/{sample}_R2_001.fastq.gz'
     output:
         bam = 'aligned_reads/{sample}.bam',
         report = "hisat2_report/{sample}_log.txt"
