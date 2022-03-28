@@ -1,0 +1,23 @@
+samples:
+  ["13_S13_L001",
+  "14_S14_L001",
+  "15_S15_L001",
+  "16_S16_L001",
+  "18_S17_L001",
+  "19_S18_L001",
+  "20_S19_L001",
+  "21_S20_L001",
+  "22_S21_L001",
+  "23_S22_L001",
+  "25_S23_L001",
+  "27_S24_L001"] 
+  # some sort of structure
+
+hisat_params:
+  min_i: 60
+  max_i: 50000
+  #min intron 60 max intron 50000 from Chen et al. 2018
+
+genome_info:
+  genome: "barley_morexv3_genome/Barley_MorexV3"
+  gtf: "barley_morexv3_genome/Hv_Morex.pgsb.Jul2020.gtf"
