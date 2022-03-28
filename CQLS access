@@ -1,5 +1,5 @@
-ssh -p 732 daoth@files.crgb.oregonstate.edu
-ssh -p 732 daoth@shell.crgb.oregonstate.edu
+ssh -p 732 daoth@files.cgrb.oregonstate.edu
+ssh -p 732 daoth@shell.cgrb.oregonstate.edu
 
 cd /dfs/Leiboff_Lab/Dat/GPS2_RNAseq
 
